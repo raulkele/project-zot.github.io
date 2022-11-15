@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 env:
-  PREFIX: ''
+  PREFIX: 'project-zot.github.io'
 
 jobs:
   build-and-push:
