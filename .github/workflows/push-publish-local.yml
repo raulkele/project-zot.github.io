@@ -10,7 +10,7 @@ permissions:
   contents: write
 
 env:
-  PREFIX: 'project-zot.github.io'
+  PREFIX: ${{ github.event.repository.name }}
 
 jobs:
   build-and-push:
