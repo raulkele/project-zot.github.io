@@ -9,7 +9,7 @@ if (prefixEnvVar === null || prefixEnvVar === undefined) {
 }
 
 module.exports = {
-    basePath: '',
+    basePath: repoNameURIPrefix,
     trailingSlash: true,
     images: {
         loader: "custom",
